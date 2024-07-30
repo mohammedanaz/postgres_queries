@@ -1,4 +1,5 @@
-select concession, count(*) , sum(total_marks) 
-from students inner join marks using(id)
-group by concession
-order by count(*);
+update marks 
+set name = students.name
+from students
+where marks.id = students.id
+returning *;
