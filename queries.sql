@@ -1,5 +1,2 @@
-update marks 
-set name = students.name
-from students
-where marks.id = students.id
-returning *;
+select sum(total_marks) , count(*)
+from marks;
