@@ -1,1 +1,1 @@
-select id,name from students where id between 5 and 10 order by id desc;
+select id,name from students order by id offset 5 fetch next 5 rows only;
