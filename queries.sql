@@ -1,1 +1,1 @@
-select id,name from students order by id offset 5 fetch next 5 rows only;
+select id,name from students  where name ilike '%R' order by id desc ;
