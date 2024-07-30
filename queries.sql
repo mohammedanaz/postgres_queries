@@ -1,1 +1,1 @@
-select distinct city from students ;
+select id,name from students where id between 5 and 10 order by id desc;
