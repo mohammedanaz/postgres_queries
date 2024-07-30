@@ -1,1 +1,1 @@
-select * from students cross join marks;
+select distinct city from students ;
