@@ -1,2 +1,2 @@
-select sum(total_marks) , count(*)
+select english, sum(total_marks) , count(*)
 from marks;
