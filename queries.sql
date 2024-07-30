@@ -1,1 +1,1 @@
-select * from students limit 3 offset 4;
+select * from students left join marks using(id, name) order by id;
