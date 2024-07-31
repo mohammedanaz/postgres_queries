@@ -1,3 +1,3 @@
 -- select * from students;
 
-select now()::date;
+select current_date - '3 months 5 days';
