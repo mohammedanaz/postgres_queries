@@ -1,3 +1,10 @@
 -- select * from students;
+-- select * from marks;
 
-select current_date - '3 months 5 days';
+select name, 
+case
+when total_marks > 170 then 'High',
+when total_marks between 160 and 170 then 'Normal',
+else 'Low',
+end as status
+from marks;
