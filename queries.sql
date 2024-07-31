@@ -1,1 +1,4 @@
-select currval('my_temp_seq');
+-- select * from students;
+
+alter table students
+drop column temp_col;
