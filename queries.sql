@@ -1,4 +1,6 @@
 -- select * from students;
 
-alter table students
-drop column temp_col;
+create table aaa
+id bigint
+name varchar(100) not null
+add constraint my_pk primary key (id);
