@@ -1,1 +1,1 @@
-select currentval('my_temp_seq');
+select currval('my_temp_seq');
