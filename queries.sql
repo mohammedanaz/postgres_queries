@@ -1,5 +1,6 @@
 -- select * from students;
 -- select * from marks;
 
-alter table department
-rename column department_name to name;
+select count(*), avg(salary)
+from worker
+group by salary;
