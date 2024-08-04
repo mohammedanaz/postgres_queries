@@ -1,7 +1,11 @@
 -- select * from students;
 -- select * from marks;
 
-select sum(salary) 
+select * 
 from worker
-group by department_id
-having department_id = 1;
+inner join department d
+on (department_id = d.id)
+where salary = (
+    select max(salary)
+    from worker
+);
