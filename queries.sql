@@ -1,4 +1,6 @@
 -- select * from students;
 -- select * from marks;
 
-select length('string');
+update worker
+set salary = 80000
+where worker_id = 5;
