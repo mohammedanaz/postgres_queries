@@ -5,4 +5,5 @@
 
 select count(*), city from students
 where concession = 10
-group by city;
+group by city
+having city ilike 'c%';
