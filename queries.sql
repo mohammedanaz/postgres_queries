@@ -3,5 +3,3 @@
 -- explain analyze
 -- select * from worker;
 
-select date_part('day', date_of_birth)
-from employee;
