@@ -3,4 +3,6 @@
 -- explain analyze
 -- select * from worker;
 
-select * from students;
+select count(*) from students
+where concession = 10
+group by city;
