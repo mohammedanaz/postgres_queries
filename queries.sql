@@ -3,3 +3,4 @@
 -- explain analyze
 -- select * from worker;
 
+select * from students;
